@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Personas Assignment UIUX</h1>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h3>Assignment Introduction and Summary</h3>
+      </div>
+      <div id="overview">
+        <p>
+          This assignment, for CSCI 1300 at Brown University, instructed us to
+          find, observe, and interview people using a public interface. Once we
+          had gathered observations and responses to our questions, we were to
+          create two personas based on our findings that represented two
+          different types of users that would be using our targeted interface.
+          We also were instructed to create a storyboard for one of our personas
+          to illustrate their interaction in more detail.
+        </p>
+        <p>
+          I chose a shared microwave in my apartment building as my interface.
+          The microwave was generally pretty standard, although it had a lot of
+          buttons and features on its control panel. My research identified two
+          broad personas among the users: one persona that wanted to get their
+          food cooked with little effort, and another who valued cooking their
+          food well. The interface generally worked well for the first type of
+          user, since they could start the microwave with just one click, but
+          the second type of user found the more advanced functionality unclear
+          and hard to use.
+        </p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h3>Interface</h3>
+      </div>
+      <div id="interface-desc">
+        <ul>
+          <li>
+            This interface is trying to allow users to cook food quickly and
+            efficiently, to whatever specification they desire.
+          </li>
+          <li>
+            The fastest way to start the microwave is by just clicking one of
+            the numbers 1-5, which activates the express cook and runs the
+            microwave for the specified number of minutes.
+          </li>
+          <li>
+            To set the cook time manually, the user must press the cook time
+            button and then input the desired number of minutes and seconds on
+            the keypad, at which point they press start.
+          </li>
+          <li>
+            The user can start the timer for 30 seconds or add 30 seconds to the
+            cook time by pressing the "Add 30 Sec" button, and can stop the
+            cooking by pressing Cancel or by opening the door
+          </li>
+          <li>
+            Setting the power level can only be done while the microwave is
+            running, or while the cook time mode is selected
+          </li>
+          <li>
+            Trying to set the power level at the wrong time causes a
+            lower-pitched beep and leads the display to slowly cycle through the
+            message "Power level may not be changed at this time"
+          </li>
+        </ul>
+      </div>
+      <div id="images">
+        <img
+          id="microwave"
+          src="./assets/microwave.jpeg"
+          alt="Picture of microwave"
+        />
+        <img
+          id="panel"
+          src="./assets/panel.jpg"
+          alt="Detail on microwave control panel"
+        />
+      </div>
+      <div id="drawing-caption">
+        <p>
+          <b>Caption:</b> The left drawing is of the microwave as a whole, while
+          the right drawing is a close-up on the control panel
+        </p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h3>Research</h3>
+      </div>
+
+      <div class="subsection">
+        <div class="subsection-title">
+          <h3>Questions</h3>
+        </div>
+
+        <ol>
+          <li>What types of food do you normally cook in the microwave?</li>
+          <li>How long do normally you cook your food for?</li>
+          <li>What features on the microwave have you used?</li>
+          <li>
+            Are you more focused on getting things heated quickly, or getting
+            things to exactly the right temperature?
+          </li>
+          <li>
+            Do you find that it is easy to do what you want on the interface?
+          </li>
+        </ol>
+      </div>
+
+      <div class="subsection">
+        <div class="subsection-title">
+          <h3>Responses</h3>
+        </div>
+        <ul>
+          <li>
+            Respondents used the microwave in varying ways: 2 respondents saying
+            they mostly reheated leftovers or prepared ingredients for cooking
+            (water, butter, frozen ingredients), while the third said they
+            mostly cooked pre-made frozen meals.
+          </li>
+          <li>
+            One respondent had grown up in Europe and primarily used microwaves
+            with a knob to set the timer rather than a keypad, and did not feel
+            as familiar with the interface as the others did.
+          </li>
+          <li>
+            One respondent was confused by the extra buttons and features and
+            wished for a simpler interface with just the timer and power level.
+          </li>
+          <li>
+            While most respondents just used the Express Cook settings and
+            didn’t particularly care if their food came out a little overcooked,
+            one respondent was more particular with timings, aiming to cook
+            their food to the perfect heat level.
+          </li>
+          <li>
+            The more particular respondent found setting the timer beyond the
+            express settings to be unintuitive, and found changing the microwave
+            power level to be difficult as well.
+          </li>
+        </ul>
+      </div>
+      <div class="subsection">
+        <div class="subsection-title">
+          <h3>Observations</h3>
+        </div>
+
+        <ul>
+          <li>Many users just used quick time select or add 30 seconds</li>
+          <li>
+            One user was trying to melt butter for 20 seconds, but was
+            frustrated since they initially tried to click the 2 button, which
+            added 2 minutes to the timer.
+          </li>
+          <li>
+            Users seemed confused by the multitude of extra functions with
+            uncertain functionality; one user tried to use the defrost function
+            and found the menu unintuitive, while another struggled to set the
+            power level
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h3>Personas</h3>
+      </div>
+      <div id="personas-body">
+        <div class="persona">
+          <div class="subsection-title">
+            <h3>Busy Beth</h3>
+          </div>
+          <div class="persona-row">
+            <div class="persona-quad persona-tl">
+              <h4>Thinks</h4>
+              <ul>
+                <li>I just want to get this cooked</li>
+                <li>Why are there so many buttons?</li>
+                <li>I guess it started!</li>
+                <li>This is a bit overcooked, but that's fine</li>
+              </ul>
+            </div>
+            <div class="persona-quad persona-tr">
+              <h4>Feels</h4>
+              <ul>
+                <li>Glad the microwave started immediately</li>
+                <li>Confused at the extra functionality</li>
+                <li>Distracted, doesn't want to think about cooking</li>
+                <li>Wants to set microwave and come back to it done</li>
+              </ul>
+            </div>
+          </div>
+          <div class="persona-row">
+            <div class="persona-quad persona-bl">
+              <h4>Says</h4>
+              <ul>
+                <li>Will this button start it?</li>
+                <li>Oh, that worked!</li>
+                <li>I'm going to check my phone while it cooks</li>
+                <li>This is a bit too hot, oh well</li>
+              </ul>
+            </div>
+            <div class="persona-quad persona-br">
+              <h4>Does</h4>
+              <ul>
+                <li>Immediately presses Express button</li>
+                <li>Goes off to do other tasks while food is cooking</li>
+              </ul>
+            </div>
+          </div>
+          <div class="persona-desc">
+            <h4>Description</h4>
+            <p>
+              Busy Beth primarily reheats leftovers and wants to get her food
+              cooked as with as little effort as possible, even if there is
+              imperfect heating.
+            </p>
+            <p>
+              She does not face many interface problems and is able to get what
+              she wants done quickly by using the Express Cook feature, although
+              she finds all the extra buttons a bit overwhelming.
+            </p>
+            <p>
+              2 of the users I interviewed were like Beth in that they just
+              wanted their food heated quickly, so they just the Express Cook
+              feature with little customization.
+            </p>
+          </div>
+        </div>
+        <div class="persona">
+          <div class="subsection-title">
+            <h3>Precise Peter</h3>
+          </div>
+          <div class="persona-row">
+            <div class="persona-quad persona-tl">
+              <h4>Thinks</h4>
+              <ul>
+                <li>Why is this not working?</li>
+                <li>Almost warm enough, maybe a little more</li>
+                <li>It looks like the food is done, I'll take it off now</li>
+                <li>Maybe lower power will cook this better</li>
+              </ul>
+            </div>
+            <div class="persona-quad persona-tr">
+              <h4>Feels</h4>
+              <ul>
+                <li>Determined to get food temperature right</li>
+                <li>Frustrated at complexity of setting his preferences</li>
+                <li>Annoyed at the slow power level error message</li>
+              </ul>
+            </div>
+          </div>
+          <div class="persona-row">
+            <div class="persona-quad persona-bl">
+              <h4>Says</h4>
+              <ul>
+                <li>How do you set the cook time?</li>
+                <li>Why is the power level not working?</li>
+                <li>A little too cold, maybe 20 more seconds</li>
+              </ul>
+            </div>
+            <div class="persona-quad persona-br">
+              <h4>Does</h4>
+              <ul>
+                <li>
+                  Tries to press number on keypad without realizing it is
+                  Express Cook
+                </li>
+                <li>Presses power level without setting timer first</li>
+                <li>Takes food out and puts back in multiple times</li>
+                <li>Watches food while it cooks</li>
+              </ul>
+            </div>
+          </div>
+          <div class="persona-desc">
+            <h4>Description</h4>
+            <p>
+              Precise Peter is a perfectionist who doesn't like his food
+              overcooked. He prefers spending a few seconds to set the timer
+              manually and likes to adjust the power levels to get the perfect
+              heat level.
+            </p>
+            <p>
+              Peter was frustrated, since he initially tried to set the timer
+              without clicking the "Cook Time" button, which ran the Express
+              Cook by default and automatically started the microwave on full
+              power. He also found that setting the power level was confusing,
+              since the button wouldn't work unless the timer was set.
+            </p>
+            <p>
+              Like Peter, one of my respondents was more precise with their
+              cooking and had similar problems with the interface.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h3>Storyboard (Precise Peter)</h3>
+      </div>
+      <div id="storyboard">
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-1.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>1. Peter is hungry and grabs some leftovers from the fridge</p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-2.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              2. He goes to the microwave and puts the leftovers in, aiming to
+              get the food cooked to the perfect temperature
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-3.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              3. He tries to set the power level, in order to ensure more even
+              cooking, but is met with an error message
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-4.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              4. He then tries to set the timer for 1:45, but the express cook
+              triggers and the food immediately starts cooking for 1 minute
+              instead
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-5.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              5. He cancels the cooking, and notices the cook time button,
+              pressing that instead
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-6.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              6. He enters his cooking time and tries the power level button
+              again
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-7.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              7. This time, he can set the power, so he puts the microwave at
+              half power and presses start
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-8.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>8. After it finishes, he takes the food out and tries some</p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-9.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              9. The food is a bit too cold, so he puts it in for another
+              minute, using the same process as before
+            </p>
+          </div>
+        </div>
+        <div class="frame">
+          <img
+            class="frame-img"
+            src="./assets/frame-10.jpg"
+            alt="Getting food from fridge"
+          />
+          <div class="frame-label">
+            <p>
+              10. The food is now perfectly cooked! Peter sits down to eat it
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
